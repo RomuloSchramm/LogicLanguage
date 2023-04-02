@@ -1,0 +1,22 @@
+Algoritmo "ValorHoraTrabalhada"
+
+Var
+
+   nome : caractere
+   valorHora, pagamento : real
+   horasTrabalhadas : inteiro
+
+Inicio
+
+   escreva("Nome: ")
+   leia(nome)
+   escreva("Pagamento: ")
+   leia(pagamento)
+   escreva("Horas trabalhadas: ")
+   leia(horasTrabalhadas)
+   
+   valorHora <- pagamento / horasTrabalhadas
+   
+   escreval("O valor por hora trabalhada para ", nome, " é de ", valorHora:8:2)
+
+Fimalgoritmo
