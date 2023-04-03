@@ -11,7 +11,7 @@ Var
    num, n, soma: inteiro
 
 Inicio
-   escreva("Quantos números de 0 à 9 serão digitados?")
+   escreva("Quantos números de 1 a 9 serão digitados?")
    leia(num)
 
    para num de 1 ate num faca
