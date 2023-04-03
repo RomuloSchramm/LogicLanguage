@@ -1,0 +1,34 @@
+Algoritmo "aumento"
+
+Var
+  salario, novo, aumento, porcento: real
+
+Inicio
+      escreva("Digite o salario da pessoa: ")
+      leia(salario)
+
+// a estrutura escolha e caso não funciona porque CASO precisa ser fixo
+// não condicional. Para condicoes, com faixas de valores, é se/senao.
+
+      se (salario <= 1000.00) entao
+         novo <- salario*120/100
+      senao
+           se salario <= 3000.00 entao
+                 novo <- salario*115/100
+           senao
+                se salario <= 8000.00 entao
+                   novo <- salario*110/100
+                senao
+                      novo <- salario*105/100
+                fimse
+           fimse
+      fimse
+      escreval("Novo salario: R$ ", novo:9:2)
+
+      aumento <- novo - salario
+      escreval("Aumento = R$ ", aumento:9:2)
+
+      porcento <- (novo*100/salario)-100
+      escreval("Porcentagem = ", porcento, "%")
+
+Fimalgoritmo
