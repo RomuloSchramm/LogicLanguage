@@ -1,4 +1,8 @@
 Algoritmo "testePara"
+// para variavel de valor_inicial ate valor_final [passo N] faca
+//    comando 1
+//    comando 2
+// fimpara
 
 Var
    num, n, soma: inteiro
@@ -11,7 +15,6 @@ Inicio
       escreva("Digite um numero: ")
       leia(n)
       soma <- n + soma
-      num <- num + 1
    fimpara
 
    escreval("SOMA = ", soma)
