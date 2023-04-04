@@ -1,0 +1,22 @@
+Algoritmo "senha_fixa"
+
+Var
+   senha, tent: inteiro
+
+Inicio
+
+      senha <- 2002
+      
+      escreva("Digite a senha: ")
+      leia(tent)
+      
+      repita
+            se tent <> senha entao
+               escreva("Senha Invalida! Tente novamente: ")
+               leia(tent)
+            fimse
+      ate tent=senha
+      
+      escreva("Acesso permitido!")
+
+Fimalgoritmo
