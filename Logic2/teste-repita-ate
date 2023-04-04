@@ -1,5 +1,5 @@
 Algoritmo "teste-repita-ate"
-
+// repita ate é legal para quando precisa repetir a mesma coisa pelo menos uma vez para só no final ver se precisa repetir ou nao
 Var
   C, F : real
   resp : caractere
